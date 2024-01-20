@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login -Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .container {
+        margin-top: 125px;
+        margin-left: 450px;
+        margin-right: 400px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 1px 10px 10px 10px #8888;
+    }
+
+    .title {
+        font-size: 50px;
+        color: orangered;
+        font-weight: bold;
+    }
+
+    .textbox {
+        font-size: 20px;
+        margin: 15px;
+        border-right: #fff;
+        border-left: #fff;
+        border-top: #fff;
+    }
+
+    .textbox:focus {
+        scale: 1.1;
+        outline: none;
+    }
+
+    .btn {
+        width: 250px;
+        height: 40px;
+        font-size: larger;
+        font-weight: 900;
+        color: #fff;
+        background-color: orangered;
+        border-radius: 20px;
+        border:none;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        background-color: rgb(173, 46, 0);
+        scale: 1.08;
+    }
+
+    .linktosignup {
+        color: gray;
+    }
+
+    .linktosignup a {
+        color: gray;
+        text-decoration: none;
+    }
+    input::placeholder{
+        font-size:17px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="title">
+            Login
+        </div>
+        <form>
+            <input class="textbox" type="email" placeholder="Email"> <br>
+            <input type="password" class="textbox" placeholder="Password"><br>
+            <input type="submit" class="btn" value="Login">
+        </form>
+        <div class="linktosignup">
+            <br>
+            <hr>
+            or <br>
+            <a href="signup.html">Create a New Account?</a>
+        </div>
+    </div>
+</body>
+
+</html>

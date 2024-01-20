@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SignUp -Food Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42eaf8b111.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .container {
+        margin-top: 40px;
+        margin-left: 450px;
+        margin-right: 400px;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 1px 10px 10px 10px #8888;
+    }
+
+    .title {
+        font-size: 50px;
+        color: orangered;
+        font-weight: bold;
+    }
+
+    .textbox {
+        font-size: 20px;
+        margin: 15px;
+        border-right: #fff;
+        border-left: #fff;
+        border-top: #fff;
+    }
+
+    .textbox:focus {
+        scale: 1.1;
+        outline: none;
+    }
+
+    .btn {
+        width: 250px;
+        height: 40px;
+        font-size: larger;
+        font-weight: 900;
+        color: #fff;
+        background-color: orangered;
+        border-radius: 20px;
+        border:none;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        background-color: rgb(173, 46, 0);
+        scale: 1.08;
+    }
+
+    .linktosignup {
+        color: gray;
+    }
+
+    .linktosignup a {
+        color: gray;
+        text-decoration: none;
+    }
+    input::placeholder{
+        font-size:17px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="title">
+            SignUp
+        </div>
+        <form>
+            <i class="fa-solid fa-user"></i>
+            <input class="textbox" type="text" placeholder="FullName"> <br>
+            <input class="textbox" type="Number" placeholder="Age"> <br>
+            <input class="textbox" type="text" placeholder="Favourite Food"> <br>
+            <input class="textbox" type="email" placeholder="Email"> <br>
+            <input type="password" class="textbox" id="pass" placeholder="Password"><br>
+            <input type="password" class="textbox" id="cpass" placeholder="Confirm Password"><br>
+            <input type="submit" class="btn" value="SignUp">
+        </form>
+        <div class="linktosignup">
+            <br>
+            <hr>
+            or <br>
+            <a href="Login.html">Already Have an Account?</a>
+        </div>
+    </div>
+</body>
+<script src="Validationscript.js"></script>
+
+</html>
