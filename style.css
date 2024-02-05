@@ -83,13 +83,10 @@ article{
     border-radius: 8px;
 }
 .card{
-    /* margin-left: 130px; */
-    /* display: flex; */
     margin-top: 80px;
     color: black;
     padding: 10px;
     border-radius: 8px;
-    /* background-color: rgb(228, 217, 217); */
 }
 .card .data{
     margin-top: 10px;
@@ -165,10 +162,7 @@ input{
     margin-top: 125px;
     margin-left: 450px;
     margin-right: 400px;
-    /* padding: 30px; */
     text-align: center;
-    /* background-color: rgb(255, 255, 255); */
-    /* filter: opacity(10%); */
 }
 .or{
     color: white;
@@ -183,7 +177,7 @@ input{
     padding: 0.5rem;
 }
 .footer li a{
-    font-size: larger;
+    font-size: medium;
 }
 .coloumn1{
     margin-left: 5rem; 
@@ -199,13 +193,34 @@ i{
     color: white;
     font-size: 50px;
 }
-
-
-/* faq css */
-.faq-title{
-    padding-top: 2rem;
-    padding-left: 40rem;
+.faq{
+    margin-top: 2rem;
+}
+.questions_container{
+    list-style-type:none;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.questions_container .questions{
+    font-weight: 500;
+    font-size: 24px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-top: 2px;
+    color: #000;
+    text-align: justify;
+}
+.questions_container .answers{
+    margin-top: 2px;
+    font-size: 19px;
     color: white;
-    font-weight: bold;
-    
+    border-radius: 8px;
+    background-color: rgba(0, 59, 110, 0.7);
+    padding: 1rem;
+}
+
+.questions_container .questions:hover{
+    cursor: pointer;
+    scale: 1.01;
 }

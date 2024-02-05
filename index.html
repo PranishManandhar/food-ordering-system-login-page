@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataSecure</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!-- nav -->
     <nav class="nav">
         <div class="logo">
             <img src="logo.png" alt="">
@@ -19,15 +21,14 @@
             <li><a href="">About us</a></li>
         </ol>
         <div id="dropdown">
-            <li><a href="signup.html">Signup</a></li>
-            <li><a href="login.html">Login</a></li>
+            <ul>    
+                <li><a href="signup.html">Signup</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
         </div>
     </nav>
 
-    <div id="parent_container" style="display: flex;">
-
-    </div>
-
+    <!-- title screen -->
     <div class="body">
         <h3>
            <i>
@@ -35,6 +36,9 @@
            </i>
         </h3>
     </div>
+
+    <!-- employbody -->
+
     <article>
     <h3 class="title_mainscreen">People Who work with us</h3>
     <div class="cardContainer">
@@ -100,39 +104,109 @@
     
 </article>
 
+    <!-- bills -->
+
+    <div class="title_mainscreen" style="text-align: center; margin-left:500px; margin-right: 550px;">Our Prices</div>
+    <div class="chargecontainer">
+        <div class="plan">
+            <p class="plan_title">Basic Plan</p>
+            <div class="Price">$50</div>
+            <div class="services">
+                <ul>
+                    <li>Remove Data From website of choice</li>
+                    <li>Track average monthly uses</li>
+                    <li>Track websites with your data</li>
+                    <li>For 1year For 1 person</li>
+                </ul>
+            </div>
+        </div>
+        <div class="plan">
+            <p class="plan_title">Medium Plan</p>
+            <div class="Price">$75</div>
+            <div class="services">
+                <ul>
+                    <li>Remove Data From website of choice</li>
+                    <li>Track average monthly uses</li>
+                    <li>Track websites with your data</li>
+                    <li>Automatic search for websites with data</li>
+                    <li>Persue a legal action</li>
+                    <li>For 1year For 3 people</li>
+                </ul>
+            </div>
+        </div>
+        <div class="plan">
+            <p class="plan_title">Master Plan</p>
+            <div class="Price">$150</div>
+            <div class="services">
+                <ul>
+                    <li>Remove Data From website of choice</li>
+                    <li>Track average monthly uses</li>
+                    <li>Track websites with your data</li>
+                    <li>Automatic search for websites with data</li>
+                    <li>Persue a legal action</li>
+                    <li>Personalized theme</li>
+                    <li>Top Priority user</li>
+                    <li>For 1year For any number of people</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!-- FAQ -->
+<div class="title_mainscreen" style="text-align: center; margin-left:500px; margin-right: 550px;">FAQ</div>
 <div class="faq">
-    <h1 class="faq-title">FAQ</h1>
     <ul>
         <li class="questions_container">
-            <button class="questions" onclick="func1()">1</button>
-            <div class="answers" id="dropdown_q">11</div>
+            <div class="questions">1)What is Datasecure?</div>
+            <div class="answers">DataSecure is a service that lets you delete your data from online. we contact to databrokers online
+                and remove your data from their websites and prevent them from selling them to advertising companies. Datasecure makes sure that
+                your data is your and no one can pry into it with out your knowledge. Our incentive is to make sure that at the end of your day 
+                you dont have to deal with those ad companies calling you.
+            </div>
         </li>
         <li class="questions_container">
-            <div class="questions">2</div>
-            <div class="answers" id="dropdown_q">22</div>
+            <div class="questions" >2)Who is a DataBroker?</div>
+            <div class="answers">DataBroker is a person or a company that collects huge amount of personal data and create a personal
+                information system for you which they later sell to others or use for their personal gain. These collecters collect from your name to
+                your SSN number. And them Having this data can cause any sort of problem to you the end user from targeted ad to almost ruining 
+                your life. These data that they take can also lead to the identity theft as well. <a href="https://shorturl.at/blwAF" style="color: black;">Read more about data brokers</a>
+            </div>
         </li>
         <li class="questions_container">
-            <div class="questions">3</div>
-            <div class="answers" id="dropdown_q">33</div>
+            <div class="questions">3)Is my Data safe?</div>
+            <div class="answers" >Your data belongs to you and not any phoney person who is after some bucks. In today's world your data 
+                is everywhere from twitter to facebook. Even your own computer might be collecting it in your background. So depending on how you
+                operate your daily life your data may not be safe. By choosing DataSecure you can leave that problem to us and be assured that your 
+                data is not going any where and no one will be collecting it from you.
+            </div>
+        </li>
+        <li class="questions_container" >
+            <div class="questions">4)How do i know that my Data is being sold online?</div>
+            <div class="answers">You might not even need to find it and a ad company might call you to sell their newly produced cheap priced
+                goods or a long time no see friend might suddenly call you and need money and call you when you never gave them your number. Or you may
+                find it on a random website you dont know while you search your name on your preferred search engine. Thats when you know tha your data has 
+                been breached. You can also use a service like ours to get a good view of where your data might be. The problem arises when your data is
+                being sold at dark web and you need to prevent that from happening.
+            </div>
         </li>
         <li class="questions_container">
-            <div class="questions">4</div>
-            <div class="answers" id="dropdown_q">44</div>
-        </li>
-        <li class="questions_container">
-            <div class="questions">5</div>
-            <div class="answers" id="dropdown_q">55</div>
+            <div class="questions">5)What effects will using DataSecure have on my data?</div>
+            <div class="answers">DataSecure will cause no harm to your data or sell your data to anyone and remove your data from the 
+                place you dont want it to be at. Using DataSecure will also help you to persue any legal actions against data brokers who have your data
+                with not problems at all.
+            </div>
         </li>
     </ul>
 </div>
 
 
+<!-- footer -->
 <footer class="footer">
     <ul class="coloumn1">
-        <li class="row3"><a href="">&nbsp;</a></li>
-        <li class="row2"><a href="">123 Street NYC</a></li>
-        <li class="row3"><a href="">&nbsp;</a></li>
-        <li class="row1"><a href="">Email:mail@datasecure.org</a></li>
+        <li class="row3">&nbsp;</li>
+        <li class="row2" style=" color: white;">123 Street NYC</li>
+        <li class="row3">&nbsp;</li>
+        <li class="row1"><a href="#">Email:mail@datasecure.org</a></li>
     </ul>
     <ul class="coloumn2">
         <li class="name">DataSecure</li>

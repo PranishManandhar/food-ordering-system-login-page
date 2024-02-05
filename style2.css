@@ -1,0 +1,32 @@
+.chargecontainer{
+    display: inline-flex;
+    margin-left: 6.9rem;
+    margin-right: 6rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    width: 62.5%;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.5);
+}
+.plan{
+    padding: 2rem;
+    background-color: rgb(240, 248, 255);
+    margin: 2rem;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgb(119, 119, 119);
+}
+.plan_title{
+    font-size: 45px;
+    font-weight: 400;
+}
+.Price{
+    font-size: 28px;
+    font-weight: 600;
+}
+.services li{
+    list-style:decimal;
+    font-weight: 200;
+}
+.services{
+    font-size: 15px;
+}
