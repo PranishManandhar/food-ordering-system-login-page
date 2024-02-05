@@ -8,3 +8,14 @@ const func = ()=>{
         
     }
 }
+
+var drop1 = document.getElementById("dropdown_q");
+const func1 = ()=>{
+    if (drop1.style.display == 'none') {
+        drop1.style.display = 'block'
+    }
+    else{
+        drop1.style.display = 'none'
+        
+    }
+}

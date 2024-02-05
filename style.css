@@ -61,7 +61,6 @@ body{
     background-size: cover;
 }
 article{
-    background-color: rgba(0, 0, 0, 0.8);
     margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -75,15 +74,22 @@ article{
     text-shadow: 7px 7px #0000;
 }
 .cardContainer{
-    padding-bottom: 1rem;
+    width: 80vw;
+    margin-left: 70px;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgba(240, 248, 255, 0.7);
     display: flex;
+    border-radius: 8px;
 }
 .card{
-    margin-left: 130px;
+    /* margin-left: 130px; */
+    /* display: flex; */
     margin-top: 80px;
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 8px;
+    /* background-color: rgb(228, 217, 217); */
 }
 .card .data{
     margin-top: 10px;
@@ -93,19 +99,18 @@ article{
     height: 140px;
 }
 .card:hover{
-    scale: 1.1;
-    box-shadow: 1px 3px 3px 3px #fff;
     cursor:crosshair;
 }
 .title_mainscreen{
-    color: white;
-    font-size: 40px;
+    color: #011638;
+    font-size: 24px;
     padding: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-    box-shadow: 5px 5px 8px 6px #001433;
+    margin-left: 500px;
+    margin-right: 460px;
+    margin-bottom: 10px;
     margin-top: 50px;
-    background-color: rgb(0, 30, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
 }
 .textbox{
     font-size: 20px;
@@ -160,9 +165,10 @@ input{
     margin-top: 125px;
     margin-left: 450px;
     margin-right: 400px;
-    padding: 30px;
+    /* padding: 30px; */
     text-align: center;
-    background-color: rgb(0, 16, 63);
+    /* background-color: rgb(255, 255, 255); */
+    /* filter: opacity(10%); */
 }
 .or{
     color: white;
